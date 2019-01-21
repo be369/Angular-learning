@@ -1,0 +1,24 @@
+ul {
+    list-style-type: none;
+    margin: 0; padding: 0;
+
+    li {
+        background: rgb(238, 238, 238);
+        padding: 1em;
+        border-radius: 1px;
+        margin-bottom: 2px;
+        grid-template-columns: 60px auto;
+        a {
+            font-weight: bold;
+        }
+        ul {
+            li {
+                background: rgb(238, 238, 238);
+                padding: 1em;
+                a {
+                    font-weight: none;
+                }
+            }
+        }
+    }
+}
